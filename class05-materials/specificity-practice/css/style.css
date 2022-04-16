@@ -8,12 +8,12 @@
 }
 /* Please select Duck with the highest level of specificity possible */
 html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight1Or100 {
- color: lime;
+ color: lime !important;
 }
 /* total points = 1000*1 + 100*1 + 10*5 + 1*7 = 1157  */
 
 /* Please select Rhino with the highest level of specificity possible */
-#rhino {
- color: green;
-
+ html > body > h1#hi + section.top > h2#rhino.africa.fourLegs {
+ color: orange !important;
 }
+/* total specificity point:  */
