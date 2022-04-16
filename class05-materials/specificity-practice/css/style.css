@@ -16,4 +16,4 @@ html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs >
  html > body > h1#hi + section.top > h2#rhino.africa.fourLegs {
  color: orange !important;
 }
-/* total specificity point:  */
+/* total specificity point: 1000*1 + 100*2 + 10*3 + 1*4 = 1234 */
