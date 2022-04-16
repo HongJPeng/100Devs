@@ -1,0 +1,27 @@
+* {
+    box-sizing:border-box;
+}
+header {
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+
+}
+footer {
+    height: 50px;
+    width: 100%;
+    border: 2px solid limegreen;
+    clear: both;
+}
+
+.main1 {
+    float: left;
+    width: 33.3333%;
+    height: 300px;
+    border: 3px solid red;
+}
+.main2 {
+    float: left;
+    width: 50%;
+    border: 3px solid blue;
+}
